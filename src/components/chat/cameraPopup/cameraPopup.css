@@ -1,0 +1,36 @@
+.camera-popup{
+    padding: 30px;
+    background-color: rgba(18, 25, 40, 0.8);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+
+
+    .camera-popup-header{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #175cb6;
+            transition: 0.2s ease-in-out;
+        }
+    }
+}
